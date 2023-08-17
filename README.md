@@ -1,8 +1,27 @@
-# React + Vite
+# Countries of the world
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The only purpose is to provide a minimal demonstration of fetching data in a
+React app.
 
-Currently, two official plugins are available:
+To run it, you should
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+```
+
+to install dependencies, and then
+
+```bash
+npm run dev
+```
+
+to run the app. You can then view it in the browser using the URL printed in
+your console.
+
+## Fetching data
+
+The `src > App.jsx` contains comments in the code to explain what is happening
+and why.
+
+There are a few other files for css and whatnot but they aren't important -
+`App.jsx` is where the fetching actually happens.
